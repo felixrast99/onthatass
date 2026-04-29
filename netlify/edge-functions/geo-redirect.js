@@ -3,11 +3,7 @@ export default async (request, context) => {
   const country = context.geo?.country?.code || "UNKNOWN";
 
   const geoLinks = {
-    "GB": "https://track.vcommission.com/click?campaign_id=12308&pub_id=126083&url_id=2",
-    "DE": "https://track.vcommission.com/click?campaign_id=12308&pub_id=126083&url_id=3",
-    "DK": "https://track.vcommission.com/click?campaign_id=12308&pub_id=126083&url_id=4",
-    "FI": "https://track.vcommission.com/click?campaign_id=12308&pub_id=126083&url_id=5",
-    "FR": "https://track.vcommission.com/click?campaign_id=12308&pub_id=126083&url_id=6"
+    "FR": "https://onthatass.com/fr-fr/men/signup?tid=&utm_source=everflow&utm_campaign=uk&utm_medium=cpa&oid=212&affid=464"
   };
 
   if (geoLinks[country]) {
